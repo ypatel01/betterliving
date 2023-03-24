@@ -144,16 +144,10 @@ input, select, textarea {
 		text-align: center;
 	}
 
-	h3 {
-		font-size: 2em;
-		line-height: 1.5em;
-		padding-top: .5em;
-		padding-bottom: .5em
-	}
-
 	h4 {
 		font-size: 1.5em;
 		line-height: 1.5em;
+		text-align: center;
 	}
 
 	a {
@@ -1879,7 +1873,12 @@ input, select, textarea {
 			padding-left: 0;
 		}
 
-			ul.divided li:first-child {
+		ul.divided.center {
+			margin: auto;
+			width: 50%;
+		}
+
+			ul.divided.center li:first-child {
 				padding-top: 0;
 				margin-top: 0;
 				border-top: 0;
